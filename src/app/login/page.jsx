@@ -1,7 +1,7 @@
 "use client"
 
 import React from 'react';
-import styles from '@/app/login/loginPage.module.css';
+import styles from './loginPage.module.css';
 import { signIn, useSession } from 'next-auth/react';
 import { useRouter } from 'next/navigation';
 

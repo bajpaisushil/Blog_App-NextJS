@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useEffect, useState } from "react";
-import styles from "@/app/write/writePage.module.css";
+import styles from "./writePage.module.css";
 import Image from "next/image";
 import ReactQuill from "react-quill";
 import "react-quill/dist/quill.bubble.css";
@@ -13,7 +13,8 @@ import {
   uploadBytesResumable,
   getDownloadURL,
 } from "firebase/storage";
-import { app } from "@/utils/firebase";
+import {app} from '../../utils/firebase';
+
 
 const storage = getStorage(app);
 
