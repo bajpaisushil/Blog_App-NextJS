@@ -2,6 +2,13 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
+Steps to run the application on your machine:
+1. Open up the terminal and type-
+   git clone git@github.com:bajpaisushil/Blog_App-NextJS.git
+
+2. Type 'npm install' at the folder directory in terminal to install all the dependencies.
+3. Run 'npm run dev' command to run the app.
+   
 First, run the development server:
 
 ```bash
